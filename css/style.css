@@ -4,6 +4,19 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+.insignia{
+	color: black;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.insignia::after{
+	content: "Lost"; 
+	color: silver;
+	font-weight: bold;
+	font-style: italic;
+}
+
 body{
 	padding:0;
 	margin:0;
@@ -117,7 +130,7 @@ i.phone{
 	position: relative;
 	background: #2874A6;
 	padding: 11px;
-	width: 24%;
+	width: 16%;
 	float: right;
 	margin: 26px 0px 0px 0em;
 }
@@ -1385,7 +1398,7 @@ a.b-home:hover{
 	}
 	.search2 input[type="text"] {
 		font-size: 14px;
-		width: 83.33%;
+		width: 75%;
 	}
 	.search2 input[type="submit"] {
 		top: 2px;
