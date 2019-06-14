@@ -15,7 +15,7 @@
 		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<!--webfont-->
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-		<script src="js/responsiveslides.min.js"></script>
+		<script src="../js/responsiveslides.min.js"></script>
 		<script>
 			$(function () {
 				$("#slider").responsiveSlides({
@@ -73,20 +73,77 @@
 		</div>
 
 		<!-- header-section-ends -->
-	<!----->
-		
-		<div class="galleria-container">
-			
+		<div class="about-content">
 			<div class="container">
-				<div class="contenido">
-					<div>
-						<p class="texto parrafo1">A</p>
-					</div>
-					<div>
-						<p class="texto parrafo2">B</p>
-					</div>
-					<div class="galeria">
-						<!--Aqui va lo que vaya a poner-->
+				<div class="seccion-agregacion">
+					<div class="seccion-agregacion-top">
+						<h3>Agrega el objeto encontrado: </h3>
+						<div class = "formulario-agregacion-objeto">
+							<div class = "formulario-agregacion-objeto-grid">
+								<div class="col-md-6 special-grid">
+									<div class="agregarImagen">
+										<img src="../images/agregarFoto.png" title="Agregar Imagen">
+									</div>
+								</div>
+								<div class="col-md-6 special-grid">
+									<div class="form-group">
+									  	<label for="sel1">¿Qué es? :</label>
+									  	<select class="form-control" id="sel1" >
+    										<option>Seleccione la categoría del objeto que encontraste</option>
+    										<option>2</option>
+    										<option>3</option>
+   		 									<option>4</option>
+  										</select>
+									</div>
+									<div class="form-group">
+									  	<label for="sel1">¡Vamos! Dame más detalles :</label>
+									  	<select class="form-control" id="sel1" >
+    										<option>Seleccione la subcategoría del objeto que encontraste</option>
+    										<option>2</option>
+    										<option>3</option>
+   		 									<option>4</option>
+  										</select>
+									</div>
+									<div class="form-group">
+									  	<label for="sel1">¡Entiendo! ¿Qué color tiene?:</label>
+									  	<select class="form-control" id="sel1" >
+    										<option>Seleccione el color del objeto encontrado</option>
+    										<option>2</option>
+    										<option>3</option>
+   		 									<option>4</option>
+  										</select>
+									</div>
+									<div class="form-group">
+									    <label for="bday">¡Ya veo! ¿Cuándo lo encontraste:</label>
+									    <input type="date" id="fechaHallazgo" name="fechaHallazgo" min="" max="" required="required">
+									    <span class="validity"></span>
+								  	</div>
+								  	<div class="form-group">
+									    <label for="appt-time">¿Aproximadamente a qué hora lo encontraste: </label>
+									    <input id="appt-time" type="time" name="appt-time"
+									           min="" max="" required
+									           pattern="[0-9]{2}:[0-9]{2}">
+									    <span class="validity"></span>
+								  	</div>
+								  	<div class="form-group">
+  										<label for="Referencia">Referencia: </label>
+  										<textarea class="form-control  input-sm" rows="3" name="descripcion" id="descripcion" placeholder="Describe el lugar en donde lo encontraste(una referencia): color de las paredes, asientos, pasillos,etc." maxlength="240"></textarea>
+									</div>
+									<div class="form-group">
+  										<label for="Descripción">Descripción: </label>
+  										<textarea class="form-control  input-sm" rows="3" name="descripcion" id="descripcion" placeholder="Descríbelo lo más detallado posible. Indica marcas singulares, manchas, rotos o elementos distinguidos para poder identificarlo mejor." maxlength="240"></textarea>
+									</div>
+								</div>
+								<div class="col-md-12 special-grid">
+									<div>
+	  									<label for="Facultad">Facultad: </label>
+	  								</div>
+	  								<div>
+										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6901.811813445582!2d-79.96303457459543!3d-2.1485283895128884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d73024d51fbe1%3A0xfa5d64ac85a9fa6e!2sEspol!5e0!3m2!1ses-419!2sec!4v1560486746848!5m2!1ses-419!2sec" width="1110" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -95,7 +152,7 @@
 		<div class="footer">
 			<div class="container">
 				<div class="copyright text-center">
-					<p>&copy; 2019 Todos los derechos reservados|Diseñado por Zaas</p>
+					<p>&copy; 2019 Todos los derechos reservados|Diseñado por<a href="https://github.com/zaaasdaw">Zaas</a></p>
 				</div>
 			</div>
 		</div>
