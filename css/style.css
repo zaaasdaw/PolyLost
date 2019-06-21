@@ -1735,28 +1735,33 @@ a.b-home:hover{
 /*------------------- mis estilos------------------------- */
 .cuerpo{
 	margin-top:3.5%;
-	background: #7B7D7D;
+	background: #F4F6F7;
 	position: relative;
 }
 
 /* contenedor de todas las imagenes*/
+
 .galeria{
 	text-align: center;
 }
-
-.galeria .imagen img{
-	width: 249px;
-	height: 249px;
-
+/*
+img.imagen{
+	width: 30%;
+	height: 30%;
 	border: 4px solid black;
 	border-radius: 3px;
-}
+}*/
+/*
+img.imagen:hover{
+	border: 4px solid#F39C12;
+	cursor: pointer;
+}*/
 
 .texto{
 	margin-top: 5%;
 	margin-left: 2%;
 	font-size: 17px;
-	color:white;
+	color:black;
 	position: relative;
 }
 
@@ -1770,14 +1775,8 @@ a.b-home:hover{
 }
 
 
-/* div de la galleria*/
-.imagen{
-	height: 250px;
-	width: 250px;
-	display: inline-block;
-	margin: 20px;
-	
-}
+/* imagenes de la galleria*/
+
 
 .logo{
 	position: absolute;
@@ -2013,4 +2012,55 @@ a.b-home:hover{
 		font-size: 1em;
 		padding-bottom: 8px;
 	}
+}
+ /* ----------------Estilos animacion imagen-------------*/
+p.parrafo1 {
+  text-align: center;
+  font-size: 35px;
+  font-style: oblique;
+}
+.galeria .contenedor img{
+	width: 249px;
+	height: 249px;
+
+	border: 4px solid black;
+	border-radius: 3px;
+}
+
+.contenedor{
+	height: 250px;
+	width: 27%;
+	position: relative;
+	display: inline-block;
+	margin: 20px;
+	
+}
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  cursor: pointer
+}
+
+.contenedor:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
