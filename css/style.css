@@ -4,6 +4,53 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+/*.col-1  { width: 8.33%; }
+.col-2  { width:16.66%; }
+.col-3  { width:25%; }
+.col-4  { width:33.33%; }
+.col-5  { width:41.66%; }
+.col-6  { width:50%; }
+.col-7  { width:58.33%; }
+.col-8  { width:66.66%; }
+.col-9  { width:75%; }
+.col-10 { width:83.33%; }
+.col-11 { width:91.66%; }
+.col-12 { width:100%; }
+		
+[class*="col-"] {
+	float: left;
+	padding: 2%;
+}
+/* Media Queries */
+/* Smartphones (portrait) ----------- */
+/*@media only screen and (max-width : 370px) {
+		
+			/* Cambio del espacio que ocupa */
+    /*.col-mobile-12 {
+		width:100%;
+	}
+	.hideThis {
+		display: none;
+	}
+	/* Altura automática de todas las imágenes */
+	/*img {
+		height: auto;
+	}
+	/* Tamaño de las fuentes */
+	/*h1 {
+		font-size: 16vw;
+	}
+	h2 {
+		font-size: 15vw;
+	}
+	h3 {
+		font-size: 14vw;
+	}
+	p {
+		font-size: 11vw;
+	}
+}*/
+
 #mapid { 
 	height: 280px; 
 }
@@ -11,7 +58,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 #agregarObjetoB {
 	border-radius: 8px;
 	position: absolute;
-	left: 89%
+	left: 89%;
+	margin: 2%;
 }
 
 .icono-imagen{
@@ -839,6 +887,7 @@ span.phone a:hover {
 
 .about-content{
 	margin-top:3em;
+	margin-bottom: 3em;
 }
 
 /*-- product-section --*/
@@ -1314,7 +1363,7 @@ a.b-home:hover{
 		font-size: 1.1em;
 	}
 	.special-grid {
-		width: 50%;
+		width: 100%;
 		float: left;
 	}
 	.dal input[type="text"] {
@@ -1561,6 +1610,9 @@ a.b-home:hover{
 	}
 }
 @media screen and (max-width: 480px) {
+	#agregarObjetoB{
+		left: 78%;
+	}
 	.caption h2 {
 		font-size: 1.4em;
 	}
@@ -1585,12 +1637,12 @@ a.b-home:hover{
 	}
 	.special-grid {
 		margin-right:2%;
-		width:49%;
+		width:100%;
 		padding:0;
 	}
 	.special-grid:nth-child(2),.special-grid:nth-child(4),.special-grid:nth-child(6) {
 		margin-right: 0;
-		width:49%;
+		width:100%;
 		padding:0;
 	}
 	.special-grid p {
@@ -1733,6 +1785,7 @@ a.b-home:hover{
 }
 
 @media screen and (max-width: 320px) {
+
 	.logo img {
 		width: 90%;
 	}
