@@ -8,7 +8,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 	<head>
 		<title>POLYLOST</title>
-		<script type="text/javascript" src="../js/intro.js"></script>
 		<link href="../css/bootstrap.css" rel='stylesheet' type='text/css' />
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="../js/jquery.min.js"></script>
@@ -40,7 +39,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="header">
 			<div class="container">
 				<div class="logoPolyLost">
-					<a id="logoPolyLost" href="../html/index.html"><h1 class="insignia">Poly</h1></a>
+					<li class="nav-item" data-position="bottom" data-intro="PolyLost es una página web centrada en la publicación y reclamo de objetos perdidos por personas en ESPOL." data-step="2"><a id="logoPolyLost" href="../html/index.html"><h1 class="insignia">Poly</h1></a></li>
 				</div>
 				<div class="clearfix"></div>
 
@@ -55,11 +54,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<span class="menu"></span>
 						<div class="top-menu">
 							<ul>
-								<li class="nav-item" data-position="bottom" data-intro="PolyLost es una página web centrada en la publicación y reclamo de objetos perdidos por personas en ESPOL" data-step="1"><a class="active nav-link" href="../html/index.html">Principal</a></li>
-								<li  class="nav-item" data-position="bottom" data-intro="PolyLost es una página web centrada en la publicación y reclamo de objetos perdidos por personas en ESPOL" data-step="2"><a class="nav-link" href="../html/perdidos.html">Objetos Perdidos</a></li>
-								<li  class="nav-item" data-position="bottom" data-intro="PolyLost es una página web centrada en la publicación y reclamo de objetos perdidos por personas en ESPOL" data-step="3"><a class="nav-link" href="../html/acerca.html">Acerca de</a></li>
-								<li  class="nav-item" data-position="bottom" data-intro="PolyLost es una página web centrada en la publicación y reclamo de objetos perdidos por personas en ESPOL" data-step="4"><a class="nav-link" href="../html/contacto.html">Contactanos</a></li>
-								<li  class="nav-item" data-position="bottom" data-intro="PolyLost es una página web centrada en la publicación y reclamo de objetos perdidos por personas en ESPOL" data-step="5"><a class="nav-link" href="../html/registrarObjetoPerdido.html">Agregar Objeto</a></li>
+								<li  class="nav-item" data-position="bottom" data-intro="En este apartado se muestran los objetos perdidos agregados recientemente a nuestro sistema." data-step="3"><a class="active nav-link" href="../html/index.html">Principal</a></li>
+								<li  class="nav-item" data-position="bottom" data-intro="Aquí podras buscar objetos perdidos y visualizarlos con mayor detalle." data-step="4"><a class="nav-link" href="../html/perdidos.html">Objetos Perdidos</a></li>
+								<li  class="nav-item" data-position="bottom" data-intro="Conoce un poco de nuestro trabajo, nuestros objetivos y trabajos futuros que planiemos realizar." data-step="5"><a class="nav-link" href="../html/acerca.html">Acerca de</a></li>
+								<li  class="nav-item" data-position="bottom" data-intro="Ponte en contacto con nosotros." data-step="6"><a class="nav-link" href="../html/contacto.html">Contactanos</a></li>
+								<li  class="nav-item" data-position="bottom" data-intro="Si encontraste algún objeto colocalo justo aquí." data-step="7"><a class="nav-link" href="../html/registrarObjetoPerdido.html">Agregar Objeto</a></li>
 								<div class="clearfix"></div>
 							</ul>
 
@@ -88,7 +87,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="container">
 				<div class="cuerpo">
 					<div>
-						<p class="texto parrafo1">¿Se te perdio algo? ¡No te preocupes! <br>De seguro lo encuentras aqui.</p>
+						<p class="texto parrafo1">¿Se te perdió algo? ¡No te preocupes! <br>De seguro lo encuentras aquí.</p>
 					</div>
 					<div>
 						<p class="texto parrafo2">Recientes:</p>
@@ -131,6 +130,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 
 					</div>
+					<dir>
+						<li class="nav-item" onclick="javascript:introJs().start();" data-position="top" data-intro="Empecemos con nuestro paseo por PolyLost." data-step="1"><h5 class="navGuiada">Dar un paseo</h5></li>
+					</dir>
 				</div>
 			</div>
 		</div>
@@ -142,6 +144,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 			</div>
 		</div>
+		<script type="text/javascript" src="../js/intro.js"></script>
 	<!-- footer-section -->
 	</body>
 </html>
