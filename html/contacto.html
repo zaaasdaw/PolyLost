@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>AGROFIRM a Agriculture Category Flat Bootstarp responsive Website Template| CONTACT :: w3layouts</title>
+		<title>POLYLOST-contacto</title>
 		<link href="../css/bootstrap.css" rel='stylesheet' type='text/css' />
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="../js/jquery.min.js"></script>
@@ -32,34 +32,45 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<a id="logoPolyLost" href="../html/index.html"><h1 class="insignia">Poly</h1></a>
 				</div>
 				<div class="clearfix"></div>
+
 				<div class="navigation">
-				 	<div class="navigation-bar">
+				 <div class="navigation-bar">
 						<div class="search2">
-						  	<form>
-							 	<input type="text" value="Search.." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search..';}"/>
-							 	<input type="submit" value="">
-						  	</form>
+									<form>
+									<input type="text" value="Search.." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search..';}"/>
+									<input type="submit" value="">
+									</form>
 						</div>
-				 		<span class="menu"></span>
+						<span class="menu"></span>
 						<div class="top-menu">
-							<ul>
-								<li><a class="active" href="../html/index.html">Principal</a></li>
-								<li><a href="../html/perdidos.html">Objetos Perdidos</a></li>
-								<li><a href="../html/acerca.html">Acerca de</a></li>
-								<li><a href="../html/contacto.html">Contactanos</a></li>
-								<li><a href="../html/registrarObjetoPerdido.html">Agregar Objeto</a></li>
+							<ul class="menuPrincipal">
+								<li class="elementoMenu"><a class="active enlaceMenu" href="../html/index.html">Principal</a></li>
+								<li class="elementoMenu"><a class="active enlaceMenu" href="../html/perdidos.html">Objetos Perdidos</a></li>
+								
+								<li class="elementoMenu"><a class="active enlaceMenu" href="../html/registrarObjetoPerdido.html">Agregar Objeto</a></li>
+								<li class="elementoMenu"><a class="active enlaceMenu" href="../html/contacto.html">Contactanos</a></li>
+								
+								<li class="elementoMenu"><a class="active enlaceMenu" href="#">Acerca de</a>
+									<ul class="menuPrincipal submenu">
+										<li class="elementoMenu"><a class="enlaceMenu" href="#">Equipo de trabajo</a></li>
+										<li class="elementoMenu"><a class="enlaceMenu" href="#">Que hacemos </a></li>
+									</ul>
+								</li>
+								
 								<div class="clearfix"></div>
 							</ul>
+
 						</div>
 					<!-- script for menu -->
-						<script>
-							$( "span.menu" ).click(function() {
-						  		$( ".top-menu" ).slideToggle( "slow", function() {
-						    	// Animation complete.
-						  		});
-							});
-						</script>
-				<!-- script for menu -->
+					<script>
+					$( "span.menu" ).click(function() {
+					  $( ".top-menu" ).slideToggle( "slow", function() {
+					    // Animation complete.
+					  });
+					});
+					</script>
+
+					<!-- script for menu -->
 						<div class="clearfix"> </div>
 					</div>
 				</div>
