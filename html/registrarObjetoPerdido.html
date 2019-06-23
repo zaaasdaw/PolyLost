@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>POLYLOST-reportar</title>
+		<title>POLYLOST</title>
 		<link href="../css/bootstrap.css" rel='stylesheet' type='text/css' />
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="../js/jquery.min.js"></script>
@@ -49,20 +49,12 @@
 						</div>
 						<span class="menu"></span>
 						<div class="top-menu">
-							<ul class="menuPrincipal">
-								<li class="elementoMenu"><a class="active enlaceMenu" href="../html/index.html">Principal</a></li>
-								<li class="elementoMenu"><a class="active enlaceMenu" href="../html/perdidos.html">Objetos Perdidos</a></li>
-								
-								<li class="elementoMenu"><a class="active enlaceMenu" href="../html/registrarObjetoPerdido.html">Agregar Objeto</a></li>
-								<li class="elementoMenu"><a class="active enlaceMenu" href="../html/contacto.html">Contactanos</a></li>
-								
-								<li class="elementoMenu"><a class="active enlaceMenu" href="#">Acerca de</a>
-									<ul class="menuPrincipal submenu">
-										<li class="elementoMenu"><a class="enlaceMenu" href="#">Equipo de trabajo</a></li>
-										<li class="elementoMenu"><a class="enlaceMenu" href="#">Que hacemos </a></li>
-									</ul>
-								</li>
-								
+							<ul>
+								<li><a class="active" href="../html/index.html">Principal</a></li>
+								<li><a href="../html/perdidos.html">Objetos Perdidos</a></li>
+								<li><a href="../html/acerca.html">Acerca de</a></li>
+								<li><a href="../html/contacto.html">Contactanos</a></li>
+								<li><a href="../html/registrarObjetoPerdido.html">Agregar Objeto</a></li>
 								<div class="clearfix"></div>
 							</ul>
 
@@ -91,7 +83,7 @@
 						<h3>Agrega el objeto encontrado: </h3>
 						<div class = "formulario-agregacion-objeto">
 							<div class = "formulario-agregacion-objeto-grid">
-								<div class= "col-md-6 col-mobile-12 special-grid">
+								<div class= "col-md-4 col-mobile-12 special-grid">
 									<div class= "agregarImagen">
 										<img src = "../images/agregarFoto.png" title="Agregar Imagen">
 										<div class = "icono-imagen">
@@ -99,7 +91,7 @@
 									 	</div>
 									</div>
 								</div>
-								<div class="col-md-6 special-grid">
+								<div class="col-md-4 special-grid">
 									<div class="form-group">
 									  	<label for="sel1">¿Qué es? :</label>
 									  	<select class="form-control" id="sel1" >
@@ -132,6 +124,9 @@
 									    <input type="date" id="fechaHallazgo" name="fechaHallazgo" min="" max="" required="required">
 									    <span class="validity"></span>
 								  	</div>
+								  	
+								</div>
+								<div class="col-md-4 special-grid">
 								  	<div class="form-group">
 									    <label for="appt-time">¿Aproximadamente a qué hora lo encontraste?: </label>
 									    <input id="appt-time" type="time" name="appt-time"
@@ -156,7 +151,7 @@
 										<div id="mapid"></div>
 									</div>
 									<div>
-										<button id="agregarObjetoB" type="button">Agregar Objeto</button>
+										<button id="agregarObjetoB" type="button"><span id="textoBoton">Agregar Objeto</span></button>
 									</div>
 								</div>
 							</div>

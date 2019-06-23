@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-		<title>POLYLOST-objetos</title>
+		<title>POLYLOST</title>
 		<link href="../css/bootstrap.css" rel='stylesheet' type='text/css' />
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="../js/jquery.min.js"></script>
@@ -34,58 +34,49 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</script>
 	</head>
 <body>
-	
-	<!-- Inicio de la seccion del header -->
+	<!-- header-section-starts -->
 	<div class="header">
 		<div class="container">
 			<div class="logoPolyLost">
-				<a id="logoPolyLost" href="../html/index.html"><h1 class="insignia">Poly</h1></a>
+					<a id="logoPolyLost" href="../html/index.html"><h1 class="insignia">Poly</h1></a>
 			</div>
+				
+			
 			<div class="clearfix"></div>
 
 			<div class="navigation">
 			 <div class="navigation-bar">
-					<div class="search2">
-								<form>
-								<input type="text" value="Search.." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search..';}"/>
-								<input type="submit" value="">
-								</form>
+				<div class="search2">
+					  <form>
+						 <input type="text" value="Search.." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search..';}"/>
+						 <input type="submit" value="">
+					  </form>
 					</div>
-					<span class="menu"></span>
-					<div class="top-menu">
-						<ul class="menuPrincipal">
-							<li class="nav-item elementoMenu" data-position="bottom" data-intro="PolyLost es una página web centrada en la publicación y reclamo de objetos perdidos por personas en ESPOL" data-step="1"><a class="active nav-link enlaceMenu" href="../html/index.html">Principal</a></li>
-							<li class="nav-item elementoMenu" data-position="bottom" data-intro="PolyLost es una página web centrada en la publicación y reclamo de objetos perdidos por personas en ESPOL" data-step="2"><a class="nav-link enlaceMenu" href="../html/perdidos.html">Objetos Perdidos</a></li>
-							
-							<li class="nav-item" data-position="bottom" data-intro="PolyLost es una página web centrada en la publicación y reclamo de objetos perdidos por personas en ESPOL" data-step="5"><a class="nav-link enlaceMenu" href="../html/registrarObjetoPerdido.html">Agregar Objeto</a></li>
-							<li class="nav-item elementoMenu" data-position="bottom" data-intro="PolyLost es una página web centrada en la publicación y reclamo de objetos perdidos por personas en ESPOL" data-step="4"><a class="nav-link enlaceMenu" href="../html/contacto.html">Contactanos</a></li>
-							
-							<li class="nav-item elementoMenu" data-position="bottom" data-intro="PolyLost es una página web centrada en la publicación y reclamo de objetos perdidos por personas en ESPOL" data-step="3"><a class="nav-link enlaceMenu" href="#">Acerca de</a>
-								<ul class="menuPrincipal submenu">
-									<li class="elementoMenu"><a class="enlaceMenu" href="#">Equipo de trabajo</a></li>
-									<li class="elementoMenu"><a class="enlaceMenu" href="#">Que hacemos </a></li>
-								</ul>
-							</li>
-							<div class="clearfix"></div>
-						</ul>
-
-					</div>
+			 <span class="menu"></span>
+				<div class="top-menu">
+					<ul>
+						<li><a class="active" href="../html/index.html">Principal</a></li>
+						<li><a href="../html/perdidos.html">Objetos Perdidos</a></li>
+						<li><a href="../html/acerca.html">Acerca de</a></li>
+						<li><a href="../html/contacto.html">Contactanos</a></li>
+						<li><a href="../html/registrarObjetoPerdido.html">Agregar Objeto</a></li>
+						<div class="clearfix"></div>
+					</ul>
+				</div>
 				<!-- script for menu -->
 				<script>
 				$( "span.menu" ).click(function() {
 				  $( ".top-menu" ).slideToggle( "slow", function() {
-					// Animation complete.
+				    // Animation complete.
 				  });
 				});
-				</script>
-
-				<!-- script for menu -->
+			</script>
+			<!-- script for menu -->
 					<div class="clearfix"> </div>
-				</div>
+			</div>
 			</div>
 		</div>
 	</div>
-
 	<!-- header-section-ends -->
 	<div class="about-content">
 		<div class="container">
