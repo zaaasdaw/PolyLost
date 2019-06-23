@@ -15,8 +15,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 #agregarObjetoB {
 	border-radius: 8px;
 	position: absolute;
-	left: 89%;
+	left: 40%;
 	margin: 2%;
+	background-color: #5DADE2;
+}
+
+#textoBoton{
+	color: white;
 }
 
 .icono-imagen{
@@ -1974,7 +1979,8 @@ img.imagen:hover{
 p.parrafo1 {
   text-align: center;
   font-size: 35px;
-  font-style: oblique;
+  font-weight: bold;
+  padding-top: 10%;
 }
 .galeria .contenedor img{
 	width: 249px;
@@ -1983,6 +1989,7 @@ p.parrafo1 {
 	border: 4px solid black;
 	border-radius: 3px;
 }
+
 
 .contenedor{
 	height: 250px;
@@ -2020,4 +2027,25 @@ p.parrafo1 {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+
+/*----------Background-----------*/
+.banner{
+	width: 100%;
+	height: 300px;
+	background-image: url("../images/PrincipalBackground.gif");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+}
+
+ 
+ul.navegacion {
+	list-style: none;
+}
+
+.mapaNavegacion {
+	text-align: right;
+	position: absolute;
+	left: 75%;
 }
