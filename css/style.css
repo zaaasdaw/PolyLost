@@ -14,7 +14,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 #mapid { 
 	height: 280px; 
 }
-
 #agregarObjetoB {
 	border-radius: 8px;
 	position: absolute;
@@ -156,29 +155,43 @@ i.phone{
 	width: 100%;
 	padding: 0 2.5em;
 }
-.top-menu ul li{
-	display:inline-block;
-	float:left;
-}
+
+
 .top-menu {
+	/*
 	padding: 35px 0;
 	float: left;
+	*/ 
 }
+
+.top-menu ul li{
+	/*float:left; MODIFICADO*/
+}
+
+
 .search2{
 	float:right;
 }
+
+.top-menu ul li{
+	/*display:inline-block; MODIFICADO*/
+}
 .top-menu ul li a{
+	
 	color:#fff;
 	font-size:19px;
 	font-weight:600;
 	text-transform:capitalize;
 	padding:36px 20px;
 	text-decoration:none;
+
 }
 
 .top-menu ul li a:hover{
 	background:#2874A6;
 }
+
+
 /*--start-search--*/
 .search2 {
 	position: relative;
@@ -1124,9 +1137,11 @@ a.b-home:hover{
 	}
 }
 @media screen and (max-width: 1280px) {
+	/*
 	.top-menu {
 		padding: 32px 0;
 	}
+	*/
 	.top-menu ul li a {
 		padding: 33px 17px;
 	}
@@ -1203,9 +1218,11 @@ a.b-home:hover{
 		padding: 29px 15px;
 		font-size: 18px;
 	}
+	/*
 	.top-menu {
 		padding: 28px 0;
 	}
+	*/
 	.search2 {
 		margin: 19px 0px 0px 0em;
 		padding: 9px;
@@ -1348,12 +1365,16 @@ a.b-home:hover{
 		right: -3px;
 	}
 	.top-menu ul li a {
+		
 		padding: 28px 12px;
 		font-size: 17px;
+		
 	}
+	/*
 	.top-menu {
 		padding: 27px 0;
 	}
+	*/
 	.navigation-bar {
 		padding: 0 1.3em;
 	}
@@ -1406,9 +1427,11 @@ a.b-home:hover{
 		float: none;
 	}
 	.top-menu ul li a{
+		
 		color:#000;
 		display: block;
 		padding: 10px 0px;
+		
 	}
 	.top-menu ul li a.active{
 		color:#fff;
@@ -1677,11 +1700,15 @@ a.b-home:hover{
 		margin-top: 1px;
 	}
 	.top-menu {
+		
 		margin-top: 7px;
+		
 	}
 	.top-menu ul li a {
+		
 		padding: 7px 0px;
 		font-size: 15px;
+		
 	}
 	h2.style {
 		font-size: 1.5em;
@@ -1748,6 +1775,7 @@ img.imagen:hover{
 	top:70px;
 }
 
+/*-------------- fin de mis estilos ---------------*/
 @media screen and (max-width: 320px) {
 
 	.logo img {
@@ -1993,7 +2021,6 @@ p.parrafo1 {
 	border-radius: 3px;
 }
 
-
 .contenedor{
 	height: 250px;
 	width: 250px;
@@ -2032,6 +2059,35 @@ p.parrafo1 {
   -ms-transform: translate(-50%, -50%);
 }
 
+
+/* armando el submenu y menu */
+.menuPrincipal{
+	list-style: none;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+	display: flex;
+}
+
+.submenu{
+	display:none;
+	position: absolute;
+}
+
+.submenu{
+	background:#5DADE2;
+}
+
+.enlaceMenu{
+	text-decoration: none;
+	display:block;
+	padding: .5em 1em;
+}
+
+.elementoMenu:hover .submenu{
+	display: block;
+}
+
 /*----------Background-----------*/
 .banner{
 	width: 100%;
@@ -2052,3 +2108,4 @@ ul.navegacion {
 	position: absolute;
 	left: 75%;
 }
+

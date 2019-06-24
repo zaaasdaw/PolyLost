@@ -1,0 +1,57 @@
+
+#desarrolladores{
+    display:block;
+    text-align: left;
+    margin-top:3%;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.contenedorUsuario{
+    height: 200px;
+    width: 500;
+    margin-top: 5%;
+    overflow: hidden;
+}
+
+.parteDerecha{
+    float: left;
+    text-align: left;
+    /* border: 1px solid silver; */
+
+    height: 200px;
+    width: 200px;
+
+    text-align: center;
+}
+
+.parteDerecha img{
+    width: 100px;
+    height: 100px;
+}
+
+.parteDerecha p{
+    display: block;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.parteIzquierda{
+    float: left;
+    /*border: 1px solid red; */
+    height: 150px;
+    width: 500px;
+
+    margin-top: 50px;
+
+}
+
+.parteIzquierda p{
+    text-align: justify;
+    margin-left: 10%;
+    
+}
+
+.usuariosShadow{
+    box-shadow: 6px 7px 12px #888888;
+}
