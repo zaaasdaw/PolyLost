@@ -4,6 +4,9 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+.respuesta{
+	color:#7ebd26;
+}
 .formulario{
 	padding: 2%;
 }
@@ -12,6 +15,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 }
 
 #mapid { 
+	height: 280px; 
+}
+
+#mapid2 { 
 	height: 280px; 
 }
 #agregarObjetoB {
@@ -37,6 +44,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	padding: 0.5%;
 }
 .agregarImagen {
+    position: relative;
+    border: 6px solid #2874A6;
+    cursor: pointer;
+}
+
+.imagenAgregada {
     position: relative;
     border: 6px solid #2874A6;
     cursor: pointer;
