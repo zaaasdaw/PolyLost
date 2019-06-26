@@ -4,6 +4,11 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+
+div.container{
+
+	padding-bottom: 2%;
+}
 .respuesta{
 	color:#7ebd26;
 }
@@ -1460,6 +1465,43 @@ a.b-home:hover{
 }
 @media screen and (max-width: 768px) {
 
+	img#pregunta{
+		display: none;
+	}
+
+	div.trans{
+		position: relative;
+		top: 16%;
+	}
+
+	div.footer{
+		padding: 39px;
+	}
+
+
+	div.botones{
+		position: relative;
+		bottom: 137%;
+	}
+
+	div.botones button.perdio, div.botones button.encontro{
+		font-size: 14px;
+	}
+
+	div.botones{
+		height: 50%;
+	}
+
+	div.banner{
+		height: 600px;
+	}
+	
+	.banner .trans p.parrafo1{
+	
+		text-align: center;
+		font-size: 20px;
+		font-weight: bold;
+	}
 
 	span.menu{
 		width:32px;
@@ -1498,6 +1540,11 @@ a.b-home:hover{
 	.top-menu ul li a.active{
 		color:#000;
 	}
+
+	.top-menu ul li a.seleccionables{
+		color: #55E71A;
+	}
+
 	.top-menu ul li a:hover{
 		color:#fff;
 	}
@@ -1513,6 +1560,25 @@ a.b-home:hover{
 	}
 }
 @media screen and (max-width: 640px) {
+
+
+	div.parteDerecha, div.parteIzquierda {
+	    float: left;
+	    height: 200px;
+	    width: 171px;
+	    text-align: center;
+	}
+
+	p.descripcionD{
+	  visibility: hidden;
+	}
+
+	p.descripcionD::before{
+		text-align: left;
+		content: "Descripción de desarroladores";
+	 	visibility: visible;
+	}
+
 	.logo img {
 		width: 90%;
 	}
@@ -1556,12 +1622,7 @@ a.b-home:hover{
 		height: 76px;
 		overflow: hidden;
 	}
-	.about-section-top p {
-		font-size: 1.1em;
-		line-height: 1.6em;
-		height: 72px;
-		overflow: hidden;
-	}
+
 	.caption h2 {
 		font-size: 1.7em;
 	}
@@ -1659,9 +1720,10 @@ a.b-home:hover{
 		font-size: 1.1em;
 	}
 }
+
 @media screen and (max-width: 480px) {
 	#agregarObjetoB{
-		left: 78%;
+		left:35%;
 	}
 	.caption h2 {
 		font-size: 1.4em;
@@ -2218,4 +2280,3 @@ p.parrafo2{
     text-align: left;
     border-bottom: 4px solid #7ebd26;
 }
-
