@@ -121,8 +121,8 @@
   										</select>
 									</div>
 									<div class="form-group">
-									    <label for="bday">¡Ya veo! ¿Cuándo lo encontraste?: </label>
-									    <input type="date" id="fechaHallazgo" name="fechaHallazgo" required="required">
+									    <label class="bday">¡Ya veo! ¿Cuándo lo encontraste?: </label>
+									    <input id="fechaHallazgo" name="fechaHallazgo" required="required">
 									    <span class="validity"></span>
 								  	</div>
 								  	
@@ -131,22 +131,21 @@
 								  	<div class="form-group">
 									    <label for="appt-time">¿Aproximadamente a qué hora lo encontraste?: </label>
 									    <input id="appt-time" type="time" name="appt-time"
-									            required
-									           pattern="[0-9]{2}:[0-9]{2}">
+									            required>
 									    <span class="validity"></span>
 								  	</div>
 								  	<div class="form-group">
-  										<label for="Referencia">Referencia: </label>
+  										<label class="Referencia">Referencia: </label>
   										<textarea class="form-control  input-sm" rows="3" name="descripcion" id="descripcion" placeholder="Describe el lugar en donde lo encontraste(una referencia): color de las paredes, asientos, pasillos,etc." maxlength="240"></textarea>
 									</div>
 									<div class="form-group">
-  										<label for="Descripción">Descripción: </label>
-  										<textarea class="form-control  input-sm" rows="3" name="descripcion2" id="descripcion" placeholder="Descríbelo lo más detallado posible. Indica marcas singulares, manchas, rotos o elementos distinguidos para poder identificarlo mejor." maxlength="240"></textarea>
+  										<label class="Descripción">Descripción: </label>
+  										<textarea class="form-control  input-sm" rows="3" name="descripcion2" placeholder="Descríbelo lo más detallado posible. Indica marcas singulares, manchas, rotos o elementos distinguidos para poder identificarlo mejor." maxlength="240"></textarea>
 									</div>
 								</div>
 								<div class="col-md-12 special-grid">
 									<div>
-	  									<label for="Facultad">Facultad: </label>
+	  									<label class="Facultad">Facultad: </label>
 	  								</div>
 	  								<div>
 										<div id="mapid"></div>
@@ -160,7 +159,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		
 		<!-- footer-section -->
 		<div class="footer">
 			<div class="container">
