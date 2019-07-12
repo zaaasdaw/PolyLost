@@ -2,7 +2,7 @@ $(document).ready(function() {
 	$.ajax({
         url: "../data/objetos.xml",
         success: function(respuesta) {
-            console.log("entro en el requqrimiento")
+            console.log("entro en el requerimiento")
             $(respuesta).find("objeto").each(function() {
             	var contenedor=$("<div></div>").addClass("contenedor");
 
